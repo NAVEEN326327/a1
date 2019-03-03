@@ -1,21 +1,18 @@
 <html>
- <head>
-   <script>
-       function effect()
-       {
-           var x =document.getElementById("a1");
-           x.style.backgroundColor="lightblue";
-       }
-       function effectback()
-       {
-           var x =document.getElementById("a1");
-           x.style.backgroundColor="red";
-       }
-       
-     </script>
-    </head>
+  <head>
+    <script>
+       function validation()
+        {
+            var result=true;
+            var i=document.getElementsByTagName("input");
+            if(i[0].value.length==0)
+        }
+    </script>    
+  </head>
   <body>
-      <h1> special price</h1>
-      <p id="a1" onmouseover="effect()" onmouseout="effectback()"> hurry up</p>
+      <form>
+      Name: <input type="text" name="xyz" >
+          
+      </form>
     </body>
 </html>
